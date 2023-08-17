@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  webapplication1:
+    image: ${DOCKER_REGISTRY-}webapplication1
+    build:
+      context: .
+      dockerfile: WebApplication1/Dockerfile
+    ports:
+    - 26008:80
+    volumes:
+      - /root/certificate.p12:/app/certificate.p12
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=https://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=@Ninh1209
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=certificate.p12

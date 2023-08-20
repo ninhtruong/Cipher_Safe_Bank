@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace WebApplication1.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -33,7 +35,5 @@ namespace WebApplication1.Controllers
             })
             .ToArray();
         }
-
-
     }
 }

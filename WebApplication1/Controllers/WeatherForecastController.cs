@@ -7,8 +7,6 @@ using System.Threading.Tasks;
 
 namespace WebApplication1.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -36,29 +34,6 @@ namespace WebApplication1.Controllers
             .ToArray();
         }
 
-        public static string GetCode(this Enum value)
-        {
-            Type type = value.GetType();
-            string name = Enum.GetName(type, value);
-            return type.GetField(name).GetCustomAttributes(false).OfType<CodeAttribute>().SingleOrDefault()?.Code;
-        }
-        public enum IRIS_CODE
-        {
-            [Code("00")]
-            success,
-            [Code("11")]
-            invalid
-        }
-        public static string GetErrorCode(string code)
-        {
-            switch(code)
-            {
-                case IRIS_CODE.success.getcode:
-                    break;
-                default:
-                    break;
-            }    
-        }
 
     }
 }

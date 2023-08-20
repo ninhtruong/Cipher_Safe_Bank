@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: WebApplication1/Dockerfile
     ports:
-    - 26008:80
+    - 26002:80
     volumes:
       - /root/certificate.p12:/app/certificate.p12
     environment:

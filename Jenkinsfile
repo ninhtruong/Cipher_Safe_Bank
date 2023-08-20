@@ -11,7 +11,7 @@ pipeline {
 				sh 'cd WebApplication1'
 				sh 'sudo docker-compose build'
 				sh 'sudo docker-compose up -d'
-				sh 'sudo docker start webppli'
+				sh 'sudo docker start webapplication1_webapplication1_1'
 				sh 'docker system prune -f'
 			}
 		}

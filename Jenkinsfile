@@ -8,10 +8,10 @@ pipeline {
 		}
 		stage('Build'){
 			steps {
-				sh 'cd WebApplication1'
+				sh 'cd Cipher_Safe_Bank'
 				sh 'sudo docker-compose build'
 				sh 'sudo docker-compose up -d'
-				sh 'sudo docker start webapplication1_webapplication1_1'
+				sh 'sudo docker start Cipher_Safe_Bank_Cipher_Safe_Bank_1'
 				sh 'docker system prune -f'
 			}
 		}

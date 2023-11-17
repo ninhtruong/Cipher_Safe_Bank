@@ -303,11 +303,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cipher_Safe_Bank\\WebApplication1\\Cipher_Safe_Bank.csproj",
+      "projectUniqueName": "D:\\Cipher_Safe_Bank\\Cipher_Safe_Bank\\Cipher_Safe_Bank.csproj",
       "projectName": "Cipher_Safe_Bank",
-      "projectPath": "D:\\Cipher_Safe_Bank\\WebApplication1\\Cipher_Safe_Bank.csproj",
+      "projectPath": "D:\\Cipher_Safe_Bank\\Cipher_Safe_Bank\\Cipher_Safe_Bank.csproj",
       "packagesPath": "C:\\Users\\nhatninh.truong_amar\\.nuget\\packages\\",
-      "outputPath": "D:\\Cipher_Safe_Bank\\WebApplication1\\obj\\",
+      "outputPath": "D:\\Cipher_Safe_Bank\\Cipher_Safe_Bank\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nhatninh.truong_amar\\AppData\\Roaming\\NuGet\\NuGet.Config",

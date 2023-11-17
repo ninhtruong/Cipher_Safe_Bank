@@ -10,7 +10,7 @@ WORKDIR /src
 COPY ["Cipher_Safe_Bank/Cipher_Safe_Bank.csproj", "Cipher_Safe_Bank/"]
 RUN dotnet restore "Cipher_Safe_Bank/Cipher_Safe_Bank.csproj"
 COPY . .
-WORKDIR "/src/WebApplication1"
+WORKDIR "/src/Cipher_Safe_Bank"
 RUN dotnet build "Cipher_Safe_Bank.csproj" -c Release -o /app/build
 
 FROM build AS publish

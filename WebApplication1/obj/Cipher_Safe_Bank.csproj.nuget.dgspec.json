@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cipher_Safe_Bank\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\Cipher_Safe_Bank\\WebApplication1\\Cipher_Safe_Bank.csproj": {}
   },
   "projects": {
-    "D:\\Cipher_Safe_Bank\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\Cipher_Safe_Bank\\WebApplication1\\Cipher_Safe_Bank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cipher_Safe_Bank\\WebApplication1\\WebApplication1.csproj",
-        "projectName": "WebApplication1",
-        "projectPath": "D:\\Cipher_Safe_Bank\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\Cipher_Safe_Bank\\WebApplication1\\Cipher_Safe_Bank.csproj",
+        "projectName": "Cipher_Safe_Bank",
+        "projectPath": "D:\\Cipher_Safe_Bank\\WebApplication1\\Cipher_Safe_Bank.csproj",
         "packagesPath": "C:\\Users\\nhatninh.truong_amar\\.nuget\\packages\\",
         "outputPath": "D:\\Cipher_Safe_Bank\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",

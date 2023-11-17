@@ -2,10 +2,10 @@ version: '3.4'
 
 services:
   webapplication1:
-    image: ${DOCKER_REGISTRY-}webapplication1
+    image: ${DOCKER_REGISTRY-}ciphersafebank
     build:
       context: .
-      dockerfile: WebApplication1/Dockerfile
+      dockerfile: Cipher_Safe_Bank/Dockerfile
     ports:
     - 26002:80
     volumes:

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{55E351BB-B256-4FCC-B2F5-77848D790451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cipher_Safe_Bank", "Cipher_Safe_Bank\Cipher_Safe_Bank.csproj", "{55E351BB-B256-4FCC-B2F5-77848D790451}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{119806E1-DB67-4F53-97F8-32F3F051A06C}"
 EndProject

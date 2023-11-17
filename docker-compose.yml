@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   cipher_safe_bank:
-    image: ${DOCKER_REGISTRY-}ciphersafebank
+    image: ${DOCKER_REGISTRY-}cipher_safe_bank
     build:
       context: .
       dockerfile: Cipher_Safe_Bank/Dockerfile
